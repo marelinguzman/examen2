@@ -1,0 +1,19 @@
+.btn {
+    background-color: #F84646;
+    padding: 1.5rem 3rem;
+    font-size: 1.4rem;
+}
+.botonMenu {
+    display: none;
+}
+.btn{
+    text-decoration: none;
+    background-color: #969696;
+    padding: 0.5rem 1rem;    
+    border-radius: 5%;
+    font-size: 1.4rem;
+    display: flex;
+}
+.foto{
+    outline-width: 5px;
+}

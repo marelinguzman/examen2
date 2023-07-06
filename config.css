@@ -1,0 +1,351 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.section1{
+    width: 100%;
+    height: 10rem;
+    background-size: cover; 
+}
+.menu{
+    display: flex;
+    padding-top: 1rem;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+.opcionesLista{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.opcion{
+    margin: 0rem 1rem;
+    font-weight: 900;
+}
+.btn{
+    background-color: #F84646;
+    padding: 0.5rem 1rem;
+    border-radius: 10%;
+    text-decoration: none;
+    margin: 0 3rem;
+    color: #fff;
+}
+.texto{
+    height: 16.4rem;
+    width: 36rem;
+
+}
+.texto h1{
+    font-size: 3.7rem;
+}
+.texto p{
+    margin: 1.5rem 0;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.panelKayt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.form{
+    width: 75%;
+    margin-top: 1rem;
+    background-color: #fff;
+    display: flex;
+    padding: 0.5rem 0.7rem 0.5rem 2rem;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.form input{ 
+    color: #D9D9D9;
+    outline: none;
+    border: transparent;
+    font-size: 1rem;
+    ::placeholder { color: #d9d9d9; }
+}
+.form button{
+    text-decoration: none;
+    background-color: #F84646;
+    padding: 0.8rem 1.7rem;
+    border-radius: 8%;
+    color: #fff;
+    border: 0;
+    font-size: 1rem;
+}
+.section2{
+    padding-top: 4rem;
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.section2 h2{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.section2 .descripcionSection{
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 2rem 0rem;
+}
+.padre{
+    margin-top: 15rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.padre .hijos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 36rem;
+    height: auto;
+    margin-bottom: 2rem;
+}
+.hijos img{
+    width: 35rem;
+    height: auto;
+}
+.hijos .nombre{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.hijos .descripcion{	
+    font-size: 1.37rem;
+    text-align: center;
+    font-weight: 400;
+}
+.section3{
+    width: 100%;
+    height: 22rem;
+    background-color: #F84648;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.tituloSection3{
+    color: white;
+    font-size: 4rem;
+}
+.descripcionSection3{
+    color: white;
+    font-size: 1.2rem;
+}
+.lineaHorizontal{
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.lineaHorizontal p{
+    color: white;
+    font-size: 1.3rem;
+}
+.section4{
+    margin-top: 6rem;
+    width: 100%;
+    height: 67rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div1Sect4 {
+    width: 90%;
+    height: 33rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.div2Sect4{
+    width: 90%;
+    height: 33rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.div1-1, .div2-2 {
+    width: 36%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.div1-2{
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    height: 100%;
+    background-size: cover;
+}
+.div2-1 {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    height: 100%;
+    background-size: cover;
+}
+.descrpcion1Sect4 ,.descrpcion2Sect4{
+    color: rgb(179, 179, 179);
+}
+.Keşfet{
+    padding: 0.5rem 2.5rem;
+    background-color: #F84646;
+    border-radius: 5%;
+    text-decoration: none;
+    color: white;
+}
+.titulo1Sect4, .titulo2Sect4{
+    font-size: 4rem;
+}
+
+.section5{
+    margin-top: 2rem;
+    padding-top: 1rem;
+    width: 100%;
+    height: auto;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F4F5F7;
+}
+.titutloSect5{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.descripcionSect5{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.section6{
+    width: 100%;
+    height: 37rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenido{
+    width: auto;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tituloSect6{
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+.descriptionSect6{
+    font-size: 1.2rem;
+}
+.imgSect6{
+    width: 25%;
+}
+.botonSect6{
+    text-decoration: none;
+    color: #fff;
+    padding: 1.2rem 2.5rem;
+    background-color: #F84646;
+    border-radius: 7%;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.section7{
+    width: 100%;
+    height: auto;
+    background-color: #F8464A;
+    padding-top: 3rem;
+}
+.alineacion{
+    width: 75%;
+    margin: auto;
+}
+.listas{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+}
+.lista1 , .lista2, .lista3, .lista4{
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.opcionPrincipal{
+    margin: 1rem 0;
+    color: #fff;
+    font-weight: 900;
+}
+.opcionSecundaria{
+    margin: 1rem 0;
+    color: #fff;
+}
+.marcasYredes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.marcaAgua{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.logos{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.logos img{
+    width: 75%;
+}
+.logostipos {
+    width: 75%;
+    height: 45rem;
+    background-size: contain;
+}
+.sectionAlineacion{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0rem 0rem 0rem 13rem;
+}
